@@ -1,0 +1,25 @@
+Name: user.rpc
+ListenOn: 0.0.0.0:7711
+
+Etcd:
+  Hosts:
+    - 127.0.0.1:2379
+  Key: user.rpc
+
+DB:
+  Host: 120.77.237.246
+  Password: 'wjh20000905'
+  Port: 3306
+  Dbname: minidouyin
+  Username: root
+  MaxIdleConns: 10
+  MaxOpenConns: 10
+  LogMode: "dev"
+  LogZap: false
+  Config: charset=utf8mb4&parseTime=True&loc=Local
+
+RDB:
+  Host: 120.77.237.246
+  Port: '6379'
+  Password: "wjh20000905"
+  Db: 1

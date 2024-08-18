@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./pb";
+
+package pb;
+
+message CreateReq {}
+message CreateReply{}
+
+service user {
+  // 创建用户
+  rpc Create(CreateReq) returns (CreateReply);
+}

@@ -1,0 +1,11 @@
+syntax = "v1"
+
+info(
+    title: "user api"
+)
+
+type UserPingReq {}
+type UserPingReply{}
+
+type UserCreateReq {}
+type UserCreateReply{}
